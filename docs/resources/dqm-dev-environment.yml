@@ -1,0 +1,45 @@
+name: dqm_dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core Python
+  - python=3.12
+  - pip
+
+  # Build tools
+  - cmake>=3.29
+  - make
+  - gcc_linux-64
+  - gxx_linux-64
+  - binutils_linux-64
+
+  # Python packages
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - pyzmq
+  - fastapi
+  - uvicorn
+  - plotly
+
+  # ROOT
+  - root
+
+  # Node.js / npm
+  - nodejs>=20
+
+  # Utilities
+  - wget
+  - git
+  - openssl
+  - pkg-config
+
+  # ZeroMQ / C++ bindings
+  - zeromq
+  - cppzmq
+  - nlohmann_json
+
+  # Intel TBB
+  - tbb

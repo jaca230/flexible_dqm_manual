@@ -1,6 +1,8 @@
 # Welcome to the Flexible DQM Manual
 
-The purpose of this manual is to aid users with setup, usage, and debugging of the flexible data quality monitor (DQM) system. The framework the DQM is built on is largely configurable, allowing it to be used for a variety of data sources. This guide will particularly focus on the case where that data source is a midas experiment. Most topics are simplified to only include information needed for operating this DQM. Some external links are provided for additional, generalized information.
+![DAQ_Image](images/DQM_webpage_example_view.gif){: style="max-width:100%; height:auto;"}
+
+The purpose of this manual is to aid users with setup, usage, and debugging of the flexible data quality monitor (DQM) system. The framework the DQM is built on is largely configurable, allowing it to be used for a variety of data sources. This guide will particularly focus on the case where that data source is a MIDAS experiment. Most topics are simplified to only include information needed for operating this DQM. Some external links are provided for additional, generalized information.
 
 Many of the guides on this webpage are thorough, as they are aimed to give solutions to problems I've encountered. However, every system is different; there may be some additional debugging to be done on the user's end.
 
